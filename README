@@ -51,17 +51,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack cln-1.2.1-X-src.tar.bz2
+  unpack cln-1.2.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./cln-1.2.1-X.cygport all
+  cygport ./cln-1.2.2-X.cygport all
 
 This will create:
-  /usr/src/cln-1.2.1-X-src.tar.bz2
-  /usr/src/cln-1.2.1-X.tar.bz2
-  /usr/src/libcln-devel-1.2.1-X.tar.bz2
-  /usr/src/libcln5-1.2.1-X.tar.bz2
+  /usr/src/cln-1.2.2-X-src.tar.bz2
+  /usr/src/cln-1.2.2-X.tar.bz2
+  /usr/src/libcln-devel-1.2.2-X.tar.bz2
+  /usr/src/libcln5-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -69,32 +69,32 @@ Files included in the binary packages:
 
 (cln)
   /etc/postinstall/cln.sh
-  /usr/share/doc/cln-1.2.1/COPYING
-  /usr/share/doc/cln-1.2.1/ChangeLog
-  /usr/share/doc/cln-1.2.1/INSTALL
-  /usr/share/doc/cln-1.2.1/NEWS
-  /usr/share/doc/cln-1.2.1/README
-  /usr/share/doc/cln-1.2.1/TODO
-  /usr/share/doc/cln-1.2.1/dvi/cln.dvi
-  /usr/share/doc/cln-1.2.1/html/cln.html
-  /usr/share/doc/cln-1.2.1/html/cln_1.html
-  /usr/share/doc/cln-1.2.1/html/cln_10.html
-  /usr/share/doc/cln-1.2.1/html/cln_11.html
-  /usr/share/doc/cln-1.2.1/html/cln_12.html
-  /usr/share/doc/cln-1.2.1/html/cln_13.html
-  /usr/share/doc/cln-1.2.1/html/cln_14.html
-  /usr/share/doc/cln-1.2.1/html/cln_15.html
-  /usr/share/doc/cln-1.2.1/html/cln_16.html
-  /usr/share/doc/cln-1.2.1/html/cln_2.html
-  /usr/share/doc/cln-1.2.1/html/cln_3.html
-  /usr/share/doc/cln-1.2.1/html/cln_4.html
-  /usr/share/doc/cln-1.2.1/html/cln_5.html
-  /usr/share/doc/cln-1.2.1/html/cln_6.html
-  /usr/share/doc/cln-1.2.1/html/cln_7.html
-  /usr/share/doc/cln-1.2.1/html/cln_8.html
-  /usr/share/doc/cln-1.2.1/html/cln_9.html
-  /usr/share/doc/cln-1.2.1/html/cln_abt.html
-  /usr/share/doc/cln-1.2.1/html/cln_fot.html
+  /usr/share/doc/cln-1.2.2/COPYING
+  /usr/share/doc/cln-1.2.2/ChangeLog
+  /usr/share/doc/cln-1.2.2/INSTALL
+  /usr/share/doc/cln-1.2.2/NEWS
+  /usr/share/doc/cln-1.2.2/README
+  /usr/share/doc/cln-1.2.2/TODO
+  /usr/share/doc/cln-1.2.2/dvi/cln.dvi
+  /usr/share/doc/cln-1.2.2/html/cln.html
+  /usr/share/doc/cln-1.2.2/html/cln_1.html
+  /usr/share/doc/cln-1.2.2/html/cln_10.html
+  /usr/share/doc/cln-1.2.2/html/cln_11.html
+  /usr/share/doc/cln-1.2.2/html/cln_12.html
+  /usr/share/doc/cln-1.2.2/html/cln_13.html
+  /usr/share/doc/cln-1.2.2/html/cln_14.html
+  /usr/share/doc/cln-1.2.2/html/cln_15.html
+  /usr/share/doc/cln-1.2.2/html/cln_16.html
+  /usr/share/doc/cln-1.2.2/html/cln_2.html
+  /usr/share/doc/cln-1.2.2/html/cln_3.html
+  /usr/share/doc/cln-1.2.2/html/cln_4.html
+  /usr/share/doc/cln-1.2.2/html/cln_5.html
+  /usr/share/doc/cln-1.2.2/html/cln_6.html
+  /usr/share/doc/cln-1.2.2/html/cln_7.html
+  /usr/share/doc/cln-1.2.2/html/cln_8.html
+  /usr/share/doc/cln-1.2.2/html/cln_9.html
+  /usr/share/doc/cln-1.2.2/html/cln_abt.html
+  /usr/share/doc/cln-1.2.2/html/cln_fot.html
   /usr/share/info/cln.info.gz
 
 (libcln5)
@@ -187,7 +187,7 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.2.1-1 -----
+----- version 1.2.2-1 -----
 Version bump.
 
 ----- version 1.2.0-1 -----
