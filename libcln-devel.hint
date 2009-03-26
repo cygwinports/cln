@@ -1,7 +1,7 @@
-category: Math Libs
-requires: cygwin libgmp3
+category: Math
+requires: cygwin libcln5 libgmp-devel libstdc++6-devel
 external-source: cln
-sdesc: "Class Library for Numbers (runtime)"
+sdesc: "Class Library for Numbers (development)"
 ldesc: "This is the Class Library for Numbers.  Features--
 - Rich set of number classes-
   Integer (unlimited precision), rational, short float,

@@ -24,20 +24,22 @@ Features:
     - hooks for memory allocation and exceptions.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  libgmp3-4.2.1-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libgmp3-4.2.4-2
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  binutils-20060817-1
-  cygport-0.3.8-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool1.5-1.5.23a-2
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.6a-2
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -59,43 +61,12 @@ Build instructions:
 
 This will create:
   /usr/src/cln-1.2.2-X-src.tar.bz2
-  /usr/src/cln-1.2.2-X.tar.bz2
   /usr/src/libcln-devel-1.2.2-X.tar.bz2
   /usr/src/libcln5-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
-
-(cln)
-  /etc/postinstall/cln.sh
-  /usr/share/doc/cln-1.2.2/COPYING
-  /usr/share/doc/cln-1.2.2/ChangeLog
-  /usr/share/doc/cln-1.2.2/INSTALL
-  /usr/share/doc/cln-1.2.2/NEWS
-  /usr/share/doc/cln-1.2.2/README
-  /usr/share/doc/cln-1.2.2/TODO
-  /usr/share/doc/cln-1.2.2/dvi/cln.dvi
-  /usr/share/doc/cln-1.2.2/html/cln.html
-  /usr/share/doc/cln-1.2.2/html/cln_1.html
-  /usr/share/doc/cln-1.2.2/html/cln_10.html
-  /usr/share/doc/cln-1.2.2/html/cln_11.html
-  /usr/share/doc/cln-1.2.2/html/cln_12.html
-  /usr/share/doc/cln-1.2.2/html/cln_13.html
-  /usr/share/doc/cln-1.2.2/html/cln_14.html
-  /usr/share/doc/cln-1.2.2/html/cln_15.html
-  /usr/share/doc/cln-1.2.2/html/cln_16.html
-  /usr/share/doc/cln-1.2.2/html/cln_2.html
-  /usr/share/doc/cln-1.2.2/html/cln_3.html
-  /usr/share/doc/cln-1.2.2/html/cln_4.html
-  /usr/share/doc/cln-1.2.2/html/cln_5.html
-  /usr/share/doc/cln-1.2.2/html/cln_6.html
-  /usr/share/doc/cln-1.2.2/html/cln_7.html
-  /usr/share/doc/cln-1.2.2/html/cln_8.html
-  /usr/share/doc/cln-1.2.2/html/cln_9.html
-  /usr/share/doc/cln-1.2.2/html/cln_abt.html
-  /usr/share/doc/cln-1.2.2/html/cln_fot.html
-  /usr/share/info/cln.info.gz
 
 (libcln5)
   /usr/bin/cygcln-5.dll
@@ -182,25 +153,39 @@ Files included in the binary packages:
   /usr/lib/libcln.dll.a
   /usr/lib/libcln.la
   /usr/lib/pkgconfig/cln.pc
+  /usr/share/doc/cln/COPYING
+  /usr/share/doc/cln/ChangeLog
+  /usr/share/doc/cln/NEWS
+  /usr/share/doc/cln/README
+  /usr/share/doc/cln/TODO
+  /usr/share/doc/cln/dvi/cln.dvi
+  /usr/share/doc/cln/html/cln.html
+  /usr/share/doc/cln/html/cln_1.html
+  /usr/share/doc/cln/html/cln_10.html
+  /usr/share/doc/cln/html/cln_11.html
+  /usr/share/doc/cln/html/cln_12.html
+  /usr/share/doc/cln/html/cln_13.html
+  /usr/share/doc/cln/html/cln_14.html
+  /usr/share/doc/cln/html/cln_15.html
+  /usr/share/doc/cln/html/cln_16.html
+  /usr/share/doc/cln/html/cln_2.html
+  /usr/share/doc/cln/html/cln_3.html
+  /usr/share/doc/cln/html/cln_4.html
+  /usr/share/doc/cln/html/cln_5.html
+  /usr/share/doc/cln/html/cln_6.html
+  /usr/share/doc/cln/html/cln_7.html
+  /usr/share/doc/cln/html/cln_8.html
+  /usr/share/doc/cln/html/cln_9.html
+  /usr/share/doc/cln/html/cln_abt.html
+  /usr/share/doc/cln/html/cln_fot.html
+  /usr/share/info/cln.info.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.2.2-1 -----
-Version bump.
-
------ version 1.2.0-1 -----
-ABI version bump.
-
------ version 1.1.13-1 -----
-Version and ABI bump, built with cygport.
-
------ version 1.1.8-1 -----
-Version bump; shared library built and html documentation included.
-
------ version 1.1.5-1 -----
-Initial release for Cygwin.
+----- version 1.2.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
