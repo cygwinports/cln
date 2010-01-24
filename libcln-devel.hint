@@ -1,5 +1,5 @@
 category: Math
-requires: libcln5 libgmp-devel libstdc++6-devel
+requires: libcln6 libgmp-devel libstdc++6-devel
 external-source: cln
 sdesc: "Class Library for Numbers (development)"
 ldesc: "This is the Class Library for Numbers.  Features--

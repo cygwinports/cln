@@ -1,5 +1,6 @@
 category: Math
-sdesc: "Class Library for Numbers (sources)"
+requires: libcln6 libgcc1 libstdc++6
+sdesc: "Class Library for Numbers (utilities)"
 ldesc: "This is the Class Library for Numbers.  Features--
 - Rich set of number classes-
   Integer (unlimited precision), rational, short float,
